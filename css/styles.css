@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 2em;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-color:palevioletred;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main-img {
+    width: 100%;
+}
