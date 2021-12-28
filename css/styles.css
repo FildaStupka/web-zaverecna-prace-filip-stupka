@@ -6,7 +6,7 @@
 #A66556*/
 
 :root {
-    --nav-color: #8C5042;
+    --brown: #8C5042;
     --body-background: #F2D3AC;
 }
 
@@ -28,11 +28,12 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 5rem;
     text-align: center;
-    margin: 0.5em;
+    margin: 1em;
 }
 
 h2 {
     font-size: 2rem;
+    margin-top: 0;
 }
 
 /* layout */
@@ -41,9 +42,22 @@ h2 {
     padding: 3em;
     margin: auto;
     background-color: white;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+main {
+    padding: 1em;
 }
 
 .main-img {
+    width: 100%;
+}
+
+video {
     width: 100%;
 }
 
@@ -52,7 +66,7 @@ figure {
     padding: 0;
 }
 
-/* header */
+/* navigation */
 .navigation {
     display: grid;
     grid-template-columns: auto 1fr auto 1fr;
@@ -84,12 +98,30 @@ nav {
     display: inline-block;
     text-decoration: none;
     font-size: 1.5rem;
-    color: var(--nav-color);
+    color: var(--brown);
     font-weight: bolder;
     padding: 0.5em 1.5em;
 }
 
 .nav-li a:hover {
-    background-color: var(--nav-color);
+    background-color: var(--brown);
     color: white;
+}
+
+/* aside */
+.did-you-know {
+    background-color: #EEE1BA;
+    padding: 1em;
+}
+
+.data {
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #E6C994;
+}
+
+/* footer */
+footer {
+    border-top: dotted 2px rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
 }
