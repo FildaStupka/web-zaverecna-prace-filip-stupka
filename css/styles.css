@@ -79,6 +79,8 @@ figcaption {
 
 .logo {
     grid-column: 1/span 1;
+    width: 81px;
+    height: 81px;
 }
 
 nav {
