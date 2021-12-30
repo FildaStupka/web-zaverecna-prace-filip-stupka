@@ -1,3 +1,42 @@
+section {
+    border-bottom: dotted 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*lidi*/
 img {
     width: 40%;
+    margin-right: 2em;
+}
+
+.employee-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+address {
+    font-size: 1.2rem;
+}
+
+/*mapa*/
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 500px;
+    width: 100%;
 }
