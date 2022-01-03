@@ -64,7 +64,7 @@ figcaption {
 /* navigation */
 .navigation {
     display: grid;
-    grid-template-columns: auto 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
 }
 
 .logo {
@@ -78,7 +78,7 @@ figcaption {
 }
 
 nav {
-    grid-column: 3/span 1;
+    grid-column: 2/span 1;
     display: flex;
     align-items: center;
     justify-content: center;
