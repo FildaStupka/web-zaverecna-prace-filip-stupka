@@ -104,7 +104,8 @@ nav {
     padding: 0.5em 1.5em;
 }
 
-.nav-li a:hover {
+.nav-li a:hover,
+.nav-li .current-page {
     background-color: var(--brown);
     color: white;
 }
